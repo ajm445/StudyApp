@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <!-- 히라가나 제목 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="히라가나"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingBottom="12dp"/>
+
+        <!-- あ행 -->
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="あ" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="아(a)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="い" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="이(i)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="う" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="우(u)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="え" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="에(e)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="お" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="오(o)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- か행 -->
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="か" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="카(ka)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="き" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="키(ki)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="く" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="쿠(ku)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="け" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="케(ke)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="こ" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="코(ko)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- さ행 -->
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="さ" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="사(sa)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="し" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="시(shi)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="す" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="스(su)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="せ" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="세(se)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="そ" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="소(so)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- た행 -->
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="た" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="타(ta)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ち" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="치(chi)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="つ" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="츠(tsu)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="て" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="테(te)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="と" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="토(to)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- な행 -->
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="な" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="나(na)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="に" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="니(ni)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ぬ" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="누(nu)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ね" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="네(ne)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="の" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="노(no)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- は행 -->
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="は" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="하(ha)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ひ" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="히(hi)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ふ" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="후(fu)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="へ" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="헤(he)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ほ" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="호(ho)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- ま행 -->
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ま" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="마(ma)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="み" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="미(mi)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="む" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="무(mu)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="め" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="메(me)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="も" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="모(mo)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- や행 -->
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="や" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="야(ya)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ゆ" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="유(yu)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="よ" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="요(yo)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- ら행 -->
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ら" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="라(ra)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="り" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="리(ri)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="る" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="루(ru)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="れ" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="레(re)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ろ" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="로(ro)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- わ행 -->
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="わ" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="와(wa)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="を" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="오(wo)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- ん -->
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ん" android:textSize="32sp" android:padding="8dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="응(n)" android:textSize="16sp" android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
