@@ -9,7 +9,7 @@
         android:id="@+id/editTextWord"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:hint="단어나 문장을 입력하세요"
+        android:hint="@string/add_word_hint"
         android:inputType="textMultiLine"
         android:maxLines="3" />
 
@@ -17,7 +17,7 @@
         android:id="@+id/buttonAdd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="추가하기"
+        android:text="@string/button_add"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:background="#3F51B5"
