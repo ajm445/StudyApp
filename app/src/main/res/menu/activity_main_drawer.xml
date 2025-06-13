@@ -8,11 +8,11 @@
         android:title="가타카나" />
     <item
         android:id="@+id/nav_everyday"
-        android:title="일상" />
+        android:title="일상 용어" />
     <item
         android:id="@+id/nav_business"
-        android:title="비즈니스" />
+        android:title="비즈니스 용어" />
     <item
         android:id="@+id/nav_computer"
-        android:title="컴퓨터용어" />
+        android:title="컴퓨터 용어" />
 </menu>
