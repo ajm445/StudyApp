@@ -4,6 +4,7 @@ import android.app.AlertDialog
 import android.os.Bundle
 import android.view.*
 import android.widget.EditText
+import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.fragment.app.Fragment
@@ -49,11 +50,43 @@ class ComputerFragment : Fragment() {
     }
 
     private fun addWord(word: String) {
-        val textView = TextView(requireContext()).apply {
+        val context = requireContext()
+        // 가로 LinearLayout 생성
+        val rowLayout = LinearLayout(context).apply {
+            orientation = LinearLayout.HORIZONTAL
+            layoutParams = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            ).apply {
+                setMargins(0, 8, 0, 8)
+            }
+            gravity = Gravity.CENTER_VERTICAL
+        }
+
+        // 가운데 정렬 TextView
+        val textView = TextView(context).apply {
             text = word
             textSize = 18f
             setPadding(0, 8, 0, 8)
+            layoutParams = LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT, 1f)
+            gravity = Gravity.CENTER
         }
-        linearLayoutWords.addView(textView)
+
+        // 오른쪽 쓰레기통 아이콘
+        val deleteIcon = ImageView(context).apply {
+            setImageResource(android.R.drawable.ic_menu_delete)
+            setPadding(24, 8, 8, 8)
+            layoutParams = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.WRAP_CONTENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            )
+            setOnClickListener {
+                linearLayoutWords.removeView(rowLayout)
+            }
+        }
+
+        rowLayout.addView(textView)
+        rowLayout.addView(deleteIcon)
+        linearLayoutWords.addView(rowLayout)
     }
 }
