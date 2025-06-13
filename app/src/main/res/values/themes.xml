@@ -14,4 +14,7 @@
         <item name="android:statusBarColor">@color/colorPrimary</item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="NoButtonStyle" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+        <item name="buttonStyle">@null</item>
+    </style>
 </resources>

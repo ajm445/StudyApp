@@ -6,4 +6,13 @@
     <item
         android:id="@+id/nav_katakana"
         android:title="가타카나" />
+    <item
+        android:id="@+id/nav_everyday"
+        android:title="일상" />
+    <item
+        android:id="@+id/nav_business"
+        android:title="비즈니스" />
+    <item
+        android:id="@+id/nav_computer"
+        android:title="컴퓨터용어" />
 </menu>

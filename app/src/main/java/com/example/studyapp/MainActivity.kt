@@ -44,6 +44,21 @@ class MainActivity : AppCompatActivity() {
                         .replace(R.id.content_frame, KatakanaFragment())
                         .commit()
                 }
+                R.id.nav_everyday -> {
+                    supportFragmentManager.beginTransaction()
+                        .replace(R.id.content_frame, EverydayFragment())
+                        .commit()
+                }
+                R.id.nav_business -> {
+                    supportFragmentManager.beginTransaction()
+                        .replace(R.id.content_frame, BusinessFragment())
+                        .commit()
+                }
+                R.id.nav_computer -> {
+                    supportFragmentManager.beginTransaction()
+                        .replace(R.id.content_frame, ComputerFragment())
+                        .commit()
+                }
             }
             drawerLayout.closeDrawer(GravityCompat.START)
             true
